@@ -1,0 +1,79 @@
+:root {
+  --blue2: #4878e4;
+  --purple: #073d66;
+  --white: #fff;
+}
+
+.nav_2 {
+  background-image: none !important;
+  background-color: #497be4 !important;
+}
+
+button {
+  border: none;
+  border-radius: 14px !important;
+  background-color: #4878e4;
+}
+
+.section_1 {
+  background: url(assets/pricing_background_1.svg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+
+.main_card {
+  border-radius: 20px;
+  box-shadow: 0px 20px 60px #00000029;
+}
+
+.main_card h1 {
+  color: #4878e4;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.main_card_list {
+  color: var(--purple);
+}
+
+.section_2 {
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+.section_2 h1 {
+  color: var(--purple);
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.section_2_row {
+  max-width: 1280px;
+}
+
+.section_2 .second_card {
+  border-radius: 8px;
+  box-shadow: 0px 20px 60px #00000029;
+  margin: auto 50px;
+  min-height: 494px;
+  width: 288px;
+}
+
+.second_card h5 {
+  color: var(--purple);
+}
+
+.second_card p {
+  color: var(--purple);
+  font-size: 14px;
+}
+
+.second_card h5 span {
+  font-size: 0.9em;
+}
+
+.second_card_last_line p {
+  font-size: 12px;
+}

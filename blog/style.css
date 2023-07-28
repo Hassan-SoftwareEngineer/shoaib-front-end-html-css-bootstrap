@@ -1,0 +1,35 @@
+:root {
+  --blue2: #4878e4;
+  --purple: #073d66;
+  --white: #fff;
+}
+
+main h1 {
+  color: var(--purple);
+}
+
+.blog_card {
+  border-radius: 20px;
+  box-shadow: 0px 20px 60px #00000029;
+  max-width: 456px !important;
+  height: 335px;
+  max-height: fit-content;
+}
+
+.blog_card img {
+  height: 100%;
+  max-height: 160px;
+}
+
+.blog_card h6 {
+  color: var(--purple);
+}
+
+.blog_card p {
+  color: var(--purple);
+}
+
+.view_more {
+  color: var(--purple);
+  cursor: pointer;
+}

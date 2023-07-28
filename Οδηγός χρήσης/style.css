@@ -1,0 +1,50 @@
+:root {
+  --purple: #073d66;
+  --pink: #4fb096;
+}
+
+.sidebar h5 {
+  color: var(--purple);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  border-top: 1px solid rgba(0, 0, 0, 60%);
+  color: var(--purple);
+  display: block;
+  padding: 0.5em 0;
+}
+
+.sidebar .last_item {
+  border-bottom: 1px solid rgba(0, 0, 0, 60%);
+}
+
+.sidebar li a {
+  color: var(--purple);
+  text-decoration: none;
+}
+
+.content h1 {
+  color: var(--purple);
+}
+
+.content_section h5 {
+  color: var(--pink);
+}
+
+.content_section p {
+  color: var(--purple);
+}
+
+.content_section p span {
+  font-weight: bold;
+}
+
+#content_section_3 img {
+  width: 100%;
+  max-width: 554px;
+}

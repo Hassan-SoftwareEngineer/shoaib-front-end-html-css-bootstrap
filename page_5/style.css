@@ -1,0 +1,22 @@
+:root {
+  --purple: #073d66;
+}
+
+section {
+  color: var(--purple);
+  display: flex;
+  justify-content: center;
+}
+
+section img {
+  max-width: 100%;
+}
+
+.section_row {
+  width: 100%;
+  max-width: 768px;
+}
+
+.back_button {
+  cursor: pointer;
+}

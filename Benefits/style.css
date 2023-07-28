@@ -1,0 +1,198 @@
+:root {
+  --purple: #073d66;
+  --white: #fff;
+}
+
+body {
+  color: var(--purple);
+}
+
+h1 {
+  font-weight: bold !important;
+  font-size: 2.1em !important;
+}
+
+p {
+  font-size: 1.25em !important;
+}
+
+.button {
+  border: none;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 14px;
+  color: var(--white);
+  font-weight: bold;
+  padding: 0.75em 2em;
+}
+
+main {
+  position: relative;
+}
+
+.section_1 {
+  display: grid;
+  place-items: center;
+  margin: 5em 0 3em 0;
+}
+
+.section_1 h3 {
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  width: 28em;
+}
+
+.section_1 ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: repeat(4, 2em);
+  gap: 1em;
+  text-align: start;
+  margin: 3em 0;
+}
+
+.section_1 ul li {
+  font-size: 1.25em;
+}
+
+.section_1 ul i {
+  color: #4fb096;
+}
+
+.section_1 button {
+  background-color: #4fb096;
+  /* border: none;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 14px;
+  color: var(--white);
+  font-weight: bold;
+  padding: 0.75em 2em; */
+}
+
+.section_2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 7.5em 0;
+}
+
+.section_2 div {
+  width: 27.5em;
+}
+
+.section_2 h1 {
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+}
+
+.section_2 .people_enjoying {
+  margin: 4em 0;
+}
+
+.section_2 button {
+  background-color: #4fb096;
+  margin-top: 7.5em;
+}
+
+.benefits_background {
+  position: absolute;
+  width: 100%;
+  z-index: -2;
+}
+
+.section_3 {
+  background: url(/assets/benefits_background_1.png);
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  position: relative;
+  padding: 5em 0;
+}
+
+.section_3 .container {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 5em;
+  padding-bottom: 7.5em;
+  max-width: 55em;
+}
+
+.section_3 div {
+  display: flex;
+  flex-direction: column;
+}
+
+.section_3 h1 {
+  margin-bottom: 1em;
+}
+
+.section_3 img {
+  height: 100%;
+  width: 100%;
+  max-width: 440px;
+  align-self: center;
+}
+
+.section_3 button {
+  background-color: var(--white);
+  color: var(--purple);
+  margin-top: 2em;
+  align-self: center;
+  width: fit-content;
+}
+
+.section_4 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5em 0;
+}
+
+.section_4 div {
+  width: 25em;
+}
+
+.section_4 h1 {
+  margin-bottom: 1em;
+}
+
+/* Media Queries */
+@media (max-width: 1100px) {
+  .section_1 h3 {
+    width: 70%;
+  }
+
+  .section_2 {
+    flex-direction: column;
+    align-items: center;
+    margin: 5em;
+  }
+
+  .section_2 div {
+    text-align: center;
+  }
+
+  .section_2 button {
+    margin-top: 2em;
+  }
+
+  .section_3 .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section_3 button {
+    margin-bottom: 5em;
+  }
+
+  .section_4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section_4 div {
+    margin-top: 3em;
+  }
+}

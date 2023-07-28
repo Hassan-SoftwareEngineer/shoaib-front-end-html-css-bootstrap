@@ -1,0 +1,150 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Reset */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Font should be Roboto for everthing */
+body {
+  font-family: 'Roboto' !important;
+}
+
+/* Shared Navbar Styles */
+a {
+  cursor: pointer;
+}
+
+/* Navbar 1 */
+.nav_1 {
+  background-color: white;
+  color: #073d66;
+  font-size: 0.9em;
+}
+
+.nav_1 ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+  justify-content: flex-end;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.nav_1 li {
+  display: inline-block;
+  margin: 0.25em 0;
+}
+
+.nav_1 li a {
+  color: #073d66;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav_1 li span {
+  margin: 0 1em;
+  margin-left: 1.5em;
+}
+
+.nav_1 li span a:hover {
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: underline !important;
+}
+
+.nav_1 li .vert_line {
+  opacity: 30%;
+  margin: 0;
+  width: 0.2em;
+}
+
+.nav_1 li .final_span {
+  margin: 0;
+  margin-left: 1em;
+}
+
+/* Navbar 2 */
+.nav_2 {
+  background: url(/assets/header_background.png);
+  background-size: 100% 100%;
+  background-position: center;
+  object-fit: contain;
+  position: relative;
+  color: #fff;
+  font-size: 1.25em;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+.nav_2 .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav_2 ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  align-items: center;
+  list-style: none;
+}
+
+.nav_2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  position: relative;
+}
+
+.header_background {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -3;
+}
+
+/* Footer */
+footer h3 {
+  color: #073d66;
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+.footer_icons i {
+  color: #073d66;
+  margin: 1.5em 1.25em 2em 0;
+}
+
+footer ul {
+  display: flex;
+  gap: 2.5em;
+  list-style: none;
+  padding-left: 0;
+}
+
+footer ul li a {
+  color: #073d66;
+}
+
+/* Media Queries */
+@media (max-width: 1000px) {
+  footer {
+    text-align: center;
+  }
+}

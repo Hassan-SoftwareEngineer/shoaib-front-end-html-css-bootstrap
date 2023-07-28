@@ -1,0 +1,62 @@
+:root {
+  --purple: #073d66;
+  --white: #fff;
+  --blue: #4878e4;
+}
+
+section {
+  color: var(--purple);
+}
+
+.section_row {
+  width: 100%;
+  max-width: 853.5px;
+}
+
+.section_row img {
+  width: 100%;
+  max-width: 340px;
+}
+
+.section_row div {
+  width: fit-content;
+}
+
+form input {
+  color: #073d66;
+  display: block;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(7, 61, 102, 0.3);
+  font-weight: bold;
+  margin: 1.5em 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+form input::placeholder {
+  color: var(--purple);
+  font-weight: normal;
+  opacity: 0.7;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form button {
+  background-color: var(--blue);
+  border: none;
+  border-radius: 14px;
+  color: var(--white);
+  font-weight: bold;
+  padding: 0.875em 4.875em;
+}
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+  .section_row h2 {
+    margin-top: 2em;
+  }
+}

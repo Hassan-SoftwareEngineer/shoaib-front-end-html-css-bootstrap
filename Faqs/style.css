@@ -1,0 +1,65 @@
+:root {
+  --purple: #073d66;
+  --pink: #4fb096;
+}
+
+.section_row {
+  width: 100%;
+  max-width: 768px;
+}
+
+section h5 {
+  color: var(--purple);
+}
+
+.accordion {
+  --bs-accordion-btn-icon: none;
+}
+
+.accordion-item {
+  border: none !important;
+  border-bottom: 1px solid #000 !important;
+}
+
+.first-accordion-item {
+  border-top: 1px solid #000 !important;
+}
+
+.accordion-button {
+  background-color: transparent !important;
+  color: var(--pink) !important;
+  font-size: 0.625em !important;
+}
+
+.accordion-item .collapsed {
+  color: var(--purple) !important;
+  font-weight: bold !important;
+}
+
+.accordion-button:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-body {
+  color: var(--purple) !important;
+  font-size: 0.875em;
+  padding-top: 0.5em !important;
+  text-align: left;
+}
+
+.accordion .accordion-button::after {
+  color: var(--purple);
+  font-family: 'FontAwesome' !important;
+  content: '\f068' !important;
+  float: right !important;
+}
+
+.accordion .accordion-button.collapsed::after {
+  /* symbol for "collapsed" panels */
+  content: '\f067' !important;
+}
+
+.accordion-button::after {
+  background-image: unset !important;
+}
